@@ -1,0 +1,351 @@
+img {
+  max-width: 100%;
+  height: auto; }
+
+.btn:active {
+  outline: none;
+  border: none; }
+
+.btn:focus {
+  outline: none;
+  border: none; }
+
+.btn:visited {
+  outline: none;
+  border: none; }
+
+body {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #3399ff; }
+
+section {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #fff;
+  height: 100vh; }
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-shadow: none; }
+
+div {
+  display: block; }
+
+#home {
+  max-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: auto; }
+  #home nav {
+    border-radius: 0px;
+    position: absolute;
+    z-index: 99999999;
+    position: fixed;
+    width: 100%;
+    padding: 9px 0; }
+    #home nav li:nth-child(6) {
+      font-size: 1.7em; }
+    #home nav li a {
+      font-size: 0.85em;
+      color: #595959;
+      text-transform: uppercase; }
+      #home nav li a:hover {
+        color: #e5694a; }
+  #home .carousel-wrapp {
+    width: 100%;
+    height: 550px; }
+    #home .carousel-wrapp #carousel-example-generic {
+      width: 100%;
+      height: 550px; }
+      #home .carousel-wrapp #carousel-example-generic .carousel-indicators li {
+        background: #fff;
+        border: transparent;
+        padding: 5px; }
+        #home .carousel-wrapp #carousel-example-generic .carousel-indicators li .active {
+          background-color: #ffff99; }
+      #home .carousel-wrapp #carousel-example-generic .item {
+        background: red;
+        width: 100%;
+        height: 550px; }
+        #home .carousel-wrapp #carousel-example-generic .item .carousel-caption {
+          width: 80%;
+          height: 350px;
+          margin: 0 -10% 30px auto; }
+        #home .carousel-wrapp #carousel-example-generic .item .slider1 {
+          width: 100%;
+          height: 550px;
+          background-image: url("carousel/slider1_bg.jpg");
+          background-position: center center;
+          background-size: cover;
+          background-repeat: repeat; }
+          #home .carousel-wrapp #carousel-example-generic .item .slider1 h1 {
+            font-size: 2.8em;
+            max-width: 50%;
+            margin: 0 auto;
+            color: #05a1c7;
+            line-height: 1.3;
+            margin-bottom: 55px;
+            text-align: center; }
+          #home .carousel-wrapp #carousel-example-generic .item .slider1 p {
+            text-align: center;
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 55px; }
+        #home .carousel-wrapp #carousel-example-generic .item .slider2 {
+          width: 100%;
+          height: 550px;
+          background-image: url("carousel/slider2_bg.jpg");
+          background-position: center center;
+          background-size: cover;
+          background-repeat: repeat; }
+          #home .carousel-wrapp #carousel-example-generic .item .slider2 .part1 {
+            width: 50%;
+            height: auto;
+            margin: 0; }
+            #home .carousel-wrapp #carousel-example-generic .item .slider2 .part1 h1 {
+              text-align: left;
+              color: #333;
+              width: 80%;
+              margin-bottom: 40px;
+              font-size: 2.4em; }
+            #home .carousel-wrapp #carousel-example-generic .item .slider2 .part1 p {
+              text-align: left;
+              margin-bottom: 40px;
+              font-size: 1.4em; }
+            #home .carousel-wrapp #carousel-example-generic .item .slider2 .part1 img {
+              float: left; }
+          #home .carousel-wrapp #carousel-example-generic .item .slider2 .part2 {
+            width: 50%;
+            height: auto;
+            margin-top: -20em;
+            float: right;
+            vertical-align: top; }
+            #home .carousel-wrapp #carousel-example-generic .item .slider2 .part2 img {
+              height: 325px; }
+  #home .text-wrapp {
+    width: 100%;
+    padding: 30px 0 15px 0;
+    background-color: #18a5c9; }
+    #home .text-wrapp .wrapper {
+      width: 70%;
+      height: auto;
+      margin: 0 auto; }
+      #home .text-wrapp .wrapper .rp {
+        height: auto;
+        width: 49.78%;
+        margin: 0 0.01px;
+        display: inline-block;
+        vertical-align: top; }
+        #home .text-wrapp .wrapper .rp p {
+          font-family: sans-serif;
+          font-size: 1.25em;
+          text-align: left;
+          color: #fff; }
+        #home .text-wrapp .wrapper .rp button {
+          border-radius: 0px;
+          padding: 0.800em 5em;
+          text-align: center;
+          font-family: sans-serif;
+          font-size: 1.2em;
+          color: #18a5c9;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: inline-block;
+          line-height: 1.42857143;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          cursor: pointer;
+          border: 1px solid transparent;
+          margin-left: 100px; }
+        #home .text-wrapp .wrapper .rp button:hover {
+          color: #333; }
+
+#vulnerabilities {
+  background: #fff;
+  height: auto; }
+  #vulnerabilities .vulnerabilities-text {
+    width: 100%;
+    padding: 30px 0; }
+    #vulnerabilities .vulnerabilities-text h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #18a5c9; }
+  #vulnerabilities .row {
+    width: 80%;
+    height: auto;
+    margin: 0px auto; }
+    #vulnerabilities .row .thumbnail {
+      border: transparent;
+      margin-top: 30px; }
+      #vulnerabilities .row .thumbnail .media-left {
+        width: 20%; }
+      #vulnerabilities .row .thumbnail a {
+        text-decoration: none;
+        color: #333;
+        font-family: sans-serif; }
+  #vulnerabilities .second-vulnerabilities-text {
+    width: 100%;
+    padding: 30px 0 1px 0; }
+    #vulnerabilities .second-vulnerabilities-text h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #000;
+      font-weight: 600; }
+  #vulnerabilities .ads {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e6e6e6; }
+    #vulnerabilities .ads .wrapper {
+      width: 60%;
+      height: 75px;
+      margin: 40px auto; }
+      #vulnerabilities .ads .wrapper .col-md-2 {
+        display: block;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+        width: 20%;
+        height: 75px; }
+  #vulnerabilities .third-vulnerabilities-text {
+    width: 100%;
+    padding: 30px 0; }
+    #vulnerabilities .third-vulnerabilities-text h3 {
+      text-align: center;
+      font-size: 1.2em; }
+    #vulnerabilities .third-vulnerabilities-text p {
+      text-align: center; }
+      #vulnerabilities .third-vulnerabilities-text p button {
+        border-radius: 0px;
+        padding: 0.870em 2.7em;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 1.6em;
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        background: #18a5c9; }
+      #vulnerabilities .third-vulnerabilities-text p button:hover {
+        background: #737373; }
+
+#footer {
+  background-color: #414141;
+  height: auto; }
+  #footer .wrapp {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0 20px 0; }
+    #footer .wrapp .row-left {
+      width: 50%;
+      height: auto;
+      margin: 0;
+      display: inline-block; }
+      #footer .wrapp .row-left .links {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1px; }
+        #footer .wrapp .row-left .links .box {
+          width: 33.4%;
+          height: auto;
+          margin: 0 -2px;
+          padding: 10px 0 25px 0;
+          display: inline-block; }
+          #footer .wrapp .row-left .links .box ul {
+            display: inline-block;
+            width: 100%; }
+            #footer .wrapp .row-left .links .box ul li {
+              list-style-type: none;
+              margin-left: -40px; }
+              #footer .wrapp .row-left .links .box ul li a {
+                color: #fff;
+                text-transform: uppercase;
+                text-decoration: none; }
+                #footer .wrapp .row-left .links .box ul li a:hover {
+                  color: #666666; }
+      #footer .wrapp .row-left .text {
+        width: 100%;
+        height: auto; }
+        #footer .wrapp .row-left .text p {
+          color: #737373;
+          font-size: 1.22em; }
+    #footer .wrapp .row-right {
+      width: 50%;
+      height: auto;
+      margin: 0;
+      display: inline-block;
+      float: right;
+      width: 40%; }
+      #footer .wrapp .row-right .form {
+        width: 100%;
+        height: auto; }
+        #footer .wrapp .row-right .form h3 {
+          color: #fff;
+          font-size: 1.2em; }
+      #footer .wrapp .row-right form {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        float: right; }
+        #footer .wrapp .row-right form input {
+          border-radius: 0px;
+          padding: 20px 0;
+          width: 14.75em;
+          display: inline-block; }
+        #footer .wrapp .row-right form button {
+          border-radius: 0px;
+          padding: 0.870em 2.7em;
+          text-align: center;
+          font-family: sans-serif;
+          font-size: 1.6em;
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: inline-block;
+          line-height: 1.42857143;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          cursor: pointer;
+          border: 1px solid transparent;
+          background: #18a5c9;
+          padding: 0.7em 1.5em;
+          font-size: 1em;
+          vertical-align: top; }
+    #footer .wrapp .adress {
+      margin-top: 100px;
+      list-style-type: none;
+      color: #737373;
+      font-size: 1em; }
+      #footer .wrapp .adress li {
+        margin-left: -40px; }
+        #footer .wrapp .adress li a {
+          color: #2490ae;
+          font-size: 1.2em; }
+    #footer .wrapp .copyright {
+      width: 100%;
+      height: auto;
+      margin-top: 60px; }
+      #footer .wrapp .copyright h6 {
+        color: #737373;
+        font-size: 0.8em; }
+
+/*# sourceMappingURL=style.css.map */

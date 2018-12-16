@@ -1,0 +1,261 @@
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .navbar-brand {
+    width: 78%; }
+
+  #home .slider1 h1 {
+    max-width: 100% !important;
+    font-size: 1.8em !important;
+    margin-bottom: 15px !important; }
+  #home .slider2 .part1 {
+    width: 100% !important; }
+    #home .slider2 .part1 h1 {
+      font-size: 1.7em !important;
+      text-align: center !important;
+      width: 100% !important; }
+    #home .slider2 .part1 p {
+      text-align: center !important; }
+    #home .slider2 .part1 img {
+      float: none;
+      margin: 0 16% 0 auto; }
+  #home .slider2 .part2 {
+    visibility: hidden; }
+  #home .text-wrapp .wrapper {
+    width: 90%; }
+    #home .text-wrapp .wrapper .rp {
+      width: 100%;
+      margin: 1px 0;
+      display: block;
+      vertical-align: top; }
+      #home .text-wrapp .wrapper .rp p .btn {
+        padding: 14px 58px;
+        margin: 0; }
+
+  #vulnerabilities .vulnerabilities-text h2 {
+    font-size: 1.6em; }
+  #vulnerabilities .row {
+    width: 100%; }
+    #vulnerabilities .row .thumbnail .media-left {
+      width: 35%; }
+  #vulnerabilities .second-vulnerabilities-text h2 {
+    font-size: 1.6em;
+    width: 90%;
+    margin: 0 auto; }
+  #vulnerabilities .ads .wrapper {
+    width: 100%;
+    height: auto;
+    margin: 40px auto 0 auto; }
+    #vulnerabilities .ads .wrapper .col-md-2 {
+      margin: 0;
+      width: 100%; }
+
+  #footer .wrapp {
+    width: 91%;
+    margin: 0 auto; }
+    #footer .wrapp .row-left {
+      width: 100%; }
+      #footer .wrapp .row-left ul li a {
+        font-size: 0.91em; }
+    #footer .wrapp .row-right {
+      width: 100%;
+      float: none; }
+      #footer .wrapp .row-right form {
+        width: 100%;
+        float: left;
+        display: inline-block; }
+        #footer .wrapp .row-right form input {
+          width: 11em;
+          display: inline-block; }
+        #footer .wrapp .row-right form button {
+          margin-top: -4.07em;
+          margin-left: 11.2em; }
+    #footer .wrapp .copyright {
+      margin-top: 0; }
+      #footer .wrapp .copyright h6 {
+        text-align: center; } }
+@media screen and (min-width: 480px) and (max-width: 640px) {
+  #home .slider1 h1 {
+    max-width: 100% !important;
+    font-size: 2.2em !important;
+    margin-bottom: 45px !important; }
+  #home .slider2 .part1 {
+    width: 100% !important; }
+    #home .slider2 .part1 h1 {
+      font-size: 2em !important;
+      text-align: center !important;
+      width: 100% !important; }
+    #home .slider2 .part1 p {
+      text-align: center !important; }
+    #home .slider2 .part1 img {
+      float: none;
+      margin: 0 25% auto; }
+  #home .slider2 .part2 {
+    visibility: hidden; }
+  #home .text-wrapp .wrapper {
+    width: 80%; }
+    #home .text-wrapp .wrapper .rp {
+      width: 100%;
+      margin: 1px 0;
+      display: block;
+      vertical-align: top; }
+      #home .text-wrapp .wrapper .rp p .btn {
+        padding: 14px 58px;
+        margin: 0; }
+
+  #vulnerabilities .vulnerabilities-text h2 {
+    font-size: 1.8em;
+    max-width: 80%;
+    margin: 0 auto; }
+  #vulnerabilities .ads .wrapper {
+    width: 90%;
+    height: auto; }
+    #vulnerabilities .ads .wrapper .col-md-2 {
+      margin: 0;
+      width: 49%;
+      display: inline-block; }
+
+  .row {
+    width: 90% !important; }
+    .row .media-left {
+      width: 35%; }
+
+  .second-vulnerabilities-text h2 {
+    font-size: 1.8em !important;
+    max-width: 80%;
+    margin: 0 auto; }
+
+  #footer .wrapp {
+    width: 95%;
+    margin: 0 auto; }
+    #footer .wrapp .row-left {
+      width: 100% !important; }
+    #footer .wrapp .row-right {
+      width: 100% !important;
+      float: none; }
+      #footer .wrapp .row-right form {
+        width: 100%;
+        float: left; }
+        #footer .wrapp .row-right form input {
+          width: 13em;
+          display: inline-block; }
+        #footer .wrapp .row-right form button {
+          margin-top: -4.07em;
+          margin-left: 13.2em; }
+  #footer .copyright {
+    margin-top: 0 !important; }
+    #footer .copyright h6 {
+      text-align: center; } }
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  #home .slider1 h1 {
+    max-width: 100% !important;
+    margin-bottom: 45px !important; }
+  #home .slider2 .part1 {
+    width: 100% !important; }
+    #home .slider2 .part1 h1 {
+      font-size: 2em !important;
+      text-align: center !important;
+      width: 100% !important; }
+    #home .slider2 .part1 p {
+      text-align: center !important; }
+    #home .slider2 .part1 img {
+      float: none;
+      margin: 0 25% auto; }
+  #home .slider2 .part2 {
+    visibility: hidden; }
+  #home .text-wrapp .wrapper {
+    width: 70%; }
+    #home .text-wrapp .wrapper .rp {
+      width: 100%;
+      margin: 1px 0;
+      display: block;
+      vertical-align: top; }
+      #home .text-wrapp .wrapper .rp p .btn {
+        padding: 14px 58px;
+        margin: 0; }
+
+  #vulnerabilities .vulnerabilities-text h2 {
+    max-width: 90%;
+    margin: 0 auto; }
+  #vulnerabilities .second-vulnerabilities-text h2 {
+    max-width: 90%;
+    margin: 0 auto; }
+  #vulnerabilities .ads .wrapper {
+    width: 90%;
+    height: auto; }
+    #vulnerabilities .ads .wrapper .col-md-2 {
+      margin: 0;
+      width: 30%;
+      display: inline-block; }
+
+  #footer .wrapp {
+    width: 95%;
+    margin: 0 auto; }
+    #footer .wrapp .row-left {
+      width: 100% !important; }
+    #footer .wrapp .row-right {
+      width: 100% !important;
+      float: none; }
+      #footer .wrapp .row-right form {
+        width: 100%;
+        float: left; }
+        #footer .wrapp .row-right form input {
+          width: 15em;
+          display: inline-block; }
+        #footer .wrapp .row-right form button {
+          margin-top: -4.07em;
+          margin-left: 15.2em; }
+  #footer .copyright {
+    margin-top: 0 !important; }
+    #footer .copyright h6 {
+      text-align: center; } }
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  #home .slider1 h1 {
+    max-width: 70% !important; }
+  #home .slider2 .part1 {
+    width: 100% !important; }
+    #home .slider2 .part1 h1 {
+      font-size: 2em !important;
+      text-align: center !important;
+      width: 60% !important;
+      margin: 0 auto; }
+    #home .slider2 .part1 p {
+      text-align: center !important; }
+    #home .slider2 .part1 img {
+      float: none;
+      margin: 0 33% 0 33%; }
+  #home .slider2 .part2 {
+    visibility: hidden; }
+  #home .text-wrapp .wrapper .rp {
+    width: 49.6%;
+    margin: 0 0.01px;
+    display: inline-block;
+    vertical-align: top; }
+    #home .text-wrapp .wrapper .rp p .btn {
+      padding: 14px 58px;
+      margin-left: 5%; }
+
+  #vulnerabilities .vulnerabilities-text h2 {
+    max-width: 90%;
+    margin: 0 auto; }
+  #vulnerabilities .second-vulnerabilities-text h2 {
+    max-width: 90%;
+    margin: 0 auto; }
+  #vulnerabilities .ads .wrapper {
+    width: 70%;
+    height: 75px; }
+    #vulnerabilities .ads .wrapper .col-md-2 {
+      margin: 0;
+      width: 20%;
+      display: inline-block; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer .wrapp .copyright {
+    margin-top: 0; }
+    #footer .wrapp .copyright h6 {
+      text-align: center; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #footer .wrapp .row-left {
+    width: 100% !important; }
+  #footer .wrapp .row-right {
+    width: 100% !important;
+    float: none; } }
+
+/*# sourceMappingURL=query.css.map */

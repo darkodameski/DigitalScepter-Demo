@@ -1,0 +1,72 @@
+@import 'variables';
+
+@mixin screen {
+  max-width:100%;
+  min-height:100%;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+@mixin border-radius($radius) {
+   border-radius: $radius;
+}
+@mixin button{
+   @include border-radius(0px);
+   padding:0.800em 5em;
+   text-align:center;
+   font-family:$man-font;
+   font-size:1.2em;
+   color:$second-color;
+   font-weight:600;
+   text-transform:uppercase;
+   display: inline-block;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+}
+@mixin second-button{
+   @include border-radius(0px);
+   padding:0.870em 2.7em;
+   text-align:center;
+   font-family:$man-font;
+   font-size:1.6em;
+   color:#fff;
+   font-weight:600;
+   text-transform:uppercase;
+   display: inline-block;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: pointer;
+   border: 1px solid transparent;
+   background:$second-color;
+}
+@mixin second-button-hover{
+   background:$button-hover-color;
+}
+@mixin row{
+  	width:50%;
+	height:auto;
+	margin:0;	
+	display: inline-block;
+}
+@mixin box{
+  	width:33.4%;
+	height:auto;
+	margin:0 -2px;
+	padding:10px 0 25px 0;
+	display: inline-block;
+}
+@mixin background{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:repeat;
+}
+@mixin carousel{
+	width:100%;
+	height:550px;
+}
